@@ -16,6 +16,8 @@ pipeline {
                 sh '''
                 # Deploy index.html to the web server directory (e.g., /var/www/html)
                 cp index.html /var/www/html/
+                cp home.html /var/www/html/
+                cp about.html /var/www/html/
                 '''
             }
         }
